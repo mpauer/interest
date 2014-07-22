@@ -99,6 +99,7 @@ namespace Interest
             }
             Console.WriteLine(result * 100.0F + "% interest this year");
             Console.WriteLine();
+
             Console.ReadLine();
         }
     }
