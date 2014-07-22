@@ -35,6 +35,7 @@ namespace Interest
             int diff;
             int i = 0;
             int j = 0;
+
             for (i = 0; i < lines; i++)
             {
                 if (myData[i].type == "B" && myData[i].when > myData[j].when)
