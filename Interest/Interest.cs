@@ -83,7 +83,7 @@ namespace Interest
             }
 
 //          analyza souboru
-            Movement myResult = new Movement(); //???
+            Movement myResult = new Movement();
             result = myResult.result(myMovement, lines.Length);
             j = myResult.pointer(myMovement, lines.Length);
 
