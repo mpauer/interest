@@ -65,10 +65,10 @@ namespace Interest
             float result = 0.0F;
             int j;
 
-            string[] lines = File.ReadAllLines("Input.txt");
             Movement[] myMovement = new Movement[lines.Length];
 
-//          nacteni souboru
+//          nacteni souboru 
+            string[] lines = File.ReadAllLines("Input.txt");
             int i = 0;
             foreach (string linex in lines)
             {
