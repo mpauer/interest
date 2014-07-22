@@ -84,8 +84,8 @@ namespace Interest
 
 //          analyza souboru
             Movement myResult = new Movement();
-            result = myResult.result(myMovement, lines.Length);
-            j = myResult.pointer(myMovement, lines.Length);
+            result = myResult.result(myMovement, lines.Length); //samotny vypocet
+            j = myResult.pointer(myMovement, lines.Length);     //jeste poloha balance v souboru
 
 //          vypis vysledku
             Console.WriteLine("Account history as of " + myMovement[j].when.ToShortDateString() + ":");
