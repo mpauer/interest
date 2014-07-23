@@ -42,12 +42,11 @@ namespace Interest
             Console.WriteLine("Account history as of " + myMovement[j].when.ToShortDateString() + ":");
             for (i = 0; i < lines.Length; i++)
             {
-                if (myMovement[i].type == "D")
+                if (myMovement[i].type == "D" || myMovement[i].type == "B")
                 {
                     Console.WriteLine(myMovement[i].type + " " + myMovement[i].value + " on " + myMovement[i].when.ToShortDateString());
                 }
             }
-            Console.WriteLine(myMovement[j].type + " " + myMovement[j].value + " on " + myMovement[j].when.ToShortDateString());
             Console.WriteLine("So far it's " + result * 100.0F + "% interest this year");
             Console.WriteLine();
 
