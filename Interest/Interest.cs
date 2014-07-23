@@ -12,8 +12,8 @@ namespace Interest
     {
         static void Main(string[] args)
         {
-            string[] parts
-            float result = 0.0F
+            string[] parts;
+            float result = 0.0F;
             int j;
 
 //          nacteni souboru 
