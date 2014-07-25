@@ -34,7 +34,7 @@ namespace Interest
             }
 
 //          analyza souboru
-            Movement myResult = new Movement();
+            Movement myResult = new Movement()
             result = myResult.result(myMovement, lines.Length); //samotny vypocet
             j = myResult.pointer(myMovement, lines.Length);     //jeste poloha balance v souboru
 
