@@ -16,7 +16,7 @@ namespace Interest
             float result = 0.0F;
             int j;
 
-//          nacteni souboru
+//          nacteni souboru test
             string[] lines = File.ReadAllLines("Input.txt");
             Movement[] myMovement = new Movement[lines.Length];
 
