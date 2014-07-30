@@ -16,7 +16,7 @@ namespace Interest
             float result = 0.0F;
             int j;
 
-//          nacteni souboru se vstupy
+//          nacteni souboru
             string[] lines = File.ReadAllLines("Input.txt");
             Movement[] myMovement = new Movement[lines.Length];
 
