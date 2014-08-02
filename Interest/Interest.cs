@@ -12,11 +12,49 @@ namespace Interest
     {
         static void Main(string[] args)
         {
+            string[] myParts;
+            List<string>   myFond = new List<string>();
+            List<char>     myType = new List<char>();
+            List<DateTime> myDate = new List<DateTime>();
+            List<float>    myAmmo = new List<float>();
+            int diff;
+            float sum = 0.0f;
+            float cumulate = 0.0f;
+            float result = 0.0f;
+
             string[] myLines = File.ReadAllLines("input.txt");
-            foreach (string linex in myLines)
+            foreach (string lineX in myLines)
             {
-                Console.WriteLine(linex);
+                if (lineX == "") continue;
+                
+                myParts = lineX.Split('\t');
+                if (myParts.Length != 4) continue;
+
+                myFond.Add(myParts[0]);
+                myType.Add(char.Parse(myParts[1]));
+                myDate.Add(DateTime.Parse(myParts[2]));
+                myAmmo.Add(float.Parse(myParts[3]));
+
             }
+            int myIndex = myType.IndexOf('B');
+            if (myIndex < 0)
+            {
+                Console.WriteLine("There is no balance in the file!");
+            }
+            else
+            {
+                for (int i = 0; i < myType.Count; i++)
+                {
+                    if (myType[i] == 'D')
+                    {
+                        diff = (myDate[myIndex] - myDate[i]).Days;
+                        sum = sum + myAmmo[i];
+                        cumulate = cumulate + diff * myAmmo[i];
+                    }
+                }
+                result = (myAmmo[myIndex] - sum) * 365.0f / cumulate * 100.0f;
+            }
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
