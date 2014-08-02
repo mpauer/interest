@@ -24,6 +24,7 @@ namespace Interest
             int myIndexD;
             int myDiff;
             
+//          reading the file
             string[] myLines = File.ReadAllLines("input.txt");
             foreach (string myLineX in myLines)
             {
