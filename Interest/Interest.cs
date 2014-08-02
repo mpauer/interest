@@ -54,6 +54,7 @@ namespace Interest
             float myCumulate;
             float myResult;
 
+//          calculating the interest for each account
             int k;
             for (int j = 0; j < i; j++)
             {
