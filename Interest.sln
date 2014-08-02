@@ -5,10 +5,6 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interest", "Interest\Interest.csproj", "{FF3C21D3-4953-4AAD-B512-A60B0448B96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movement", "Movement\Movement.csproj", "{6DCE598B-07F5-44F5-B1F0-CBE4155964CF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTest", "ClassTest\ClassTest.csproj", "{16EC04AC-FE55-4615-A1FA-8D516711B4DB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{FF3C21D3-4953-4AAD-B512-A60B0448B96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF3C21D3-4953-4AAD-B512-A60B0448B96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3C21D3-4953-4AAD-B512-A60B0448B96F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DCE598B-07F5-44F5-B1F0-CBE4155964CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DCE598B-07F5-44F5-B1F0-CBE4155964CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DCE598B-07F5-44F5-B1F0-CBE4155964CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DCE598B-07F5-44F5-B1F0-CBE4155964CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16EC04AC-FE55-4615-A1FA-8D516711B4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16EC04AC-FE55-4615-A1FA-8D516711B4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16EC04AC-FE55-4615-A1FA-8D516711B4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16EC04AC-FE55-4615-A1FA-8D516711B4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
