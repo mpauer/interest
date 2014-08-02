@@ -52,12 +52,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Movement\Movement.csproj">
-      <Project>{6dce598b-07f5-44f5-b1f0-cbe4155964cf}</Project>
-      <Name>Movement</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
