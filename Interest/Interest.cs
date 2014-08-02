@@ -92,7 +92,7 @@ namespace Interest
                     }
                     myResult = (myAmmo[myIndexB] - mySum) * 365.0f / myCumulate * 100.0f;
                     myIndex = myFoNo.IndexOf(j);
-                    Console.WriteLine(myResult.ToString("n2") + " " + myFond[myIndex]);
+                    Console.WriteLine(myResult.ToString("n2") + " " + myFond[myIndex]); // printing result for each account
                 }
             }
         Console.ReadLine();
